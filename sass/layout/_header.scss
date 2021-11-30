@@ -1,0 +1,33 @@
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.header__item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin-right: 90px;
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list_social {
+    display: flex;
+}
+
+.header__list_social__item {
+    margin-right: 47px;
+    &:last-child {
+        margin-right: 0px;
+    }
+}
