@@ -42,9 +42,25 @@ body {
 }
 
 .header {
+  padding-top: 48px;
+  padding-left: 120px;
+  padding-right: 120px;
+  background: url(../images/bacgraund-1x.jpg) 100% 0 no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .header {
+    background-image: url(../images/bacgraund-2x.jpg);
+  }
+}
+
+.header__container {
+  position: relative;
+}
+
+.header__box {
   display: flex;
   justify-content: space-between;
-  padding-top: 48px;
 }
 
 .header__item {
@@ -63,6 +79,7 @@ body {
 
 .header__list {
   display: flex;
+  margin-bottom: 248.5px;
 }
 
 .header__list_social {
@@ -77,10 +94,64 @@ body {
   margin-right: 0px;
 }
 
+.header__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 48px;
+  padding-top: 4px;
+}
+
+.header__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 378px;
+  margin-bottom: 24px;
+}
+
+.header__text_description {
+  width: 378px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.header__button {
+  min-width: 225px;
+  height: 56.11px;
+  background-color: var(--accent-color);
+  box-shadow: 0px 10px 20px rgba(71, 55, 255, 0.3);
+  border-radius: 30.5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  border: transparent;
+  margin-bottom: 269px;
+}
+
+.header__text_slogan {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #BAB4FD;
+}
+
+.header__images {
+  position: absolute;
+  top: 0%;
+  right: 5%;
+}
+
 .container {
   margin: auto;
-  padding-left: 120px;
-  padding-right: 120px;
   width: 1440px;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
