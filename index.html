@@ -48,12 +48,12 @@
     </div>
     </header>
     <main>
-        <section class="expert">
+        <section class="section">
             <div class="container">
                 <h2 class="expert__title">Экспертиза</h2>
                 <ul class="expert__list">
                     <li class="expert__item">
-                        <svg>
+                        <svg class="expert__icon">
                             <use href="./images/sprite.svg#icon-check-circle" width="40px" height="40px"></use>
                         </svg>
                         <div class="expert__box">
@@ -74,12 +74,12 @@
                         </div>
                     </li>
                     <li class="expert__item">
-                        <svg>
+                        <svg class="expert__icon">
                             <use href="./images/sprite.svg#icon-check-circle" width="40px" height="40px"></use>
                         </svg>
                         <div class="expert__box">
                             <p class="expert__text_mein">Корпоративный сайт</p>
-                            <p class="expert__text">это полноценная презентация информации о компании <br> в сети Интернет</p>
+                            <p class="expert__text">это полноценная презентация информации о компании в сети Интернет</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -95,12 +95,12 @@
                         </div>
                     </li>
                     <li class="expert__item">
-                        <svg>
+                        <svg class="expert__icon">
                             <use href="./images/sprite.svg#icon-check-circle" width="40px" height="40px"></use>
                         </svg>
-                        <div class="expert__box">
+                        <div>
                             <p class="expert__text_mein">Web-приложение</p>
-                            <p class="expert__text">многофункциональный сайт, который поможет решить <br> проблемы пользователей</p>
+                            <p class="expert__text">многофункциональный сайт, который поможет решить проблемы пользователей</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -116,12 +116,12 @@
                         </div>
                     </li>
                     <li class="expert__item">
-                        <svg>
+                        <svg class="expert__icon">
                             <use href="./images/sprite.svg#icon-check-circle" width="40px" height="40px"></use>
                         </svg>
                         <div class="expert__box">
                             <p class="expert__text_mein">Мобильное приложение</p>
-                            <p class="expert__text">Приложение, сделанное четко под требования Apple <br> и Google</p>
+                            <p class="expert__text">Приложение, сделанное четко под требования Apple и Google</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -139,7 +139,99 @@
                 </ul>
 
             </div>
-        </section>   
+        </section>
+        <section class="feed-back">
+        <div class="container">
+            <div class="feed-back__box">
+            <picture>
+                <source srcset="./images/feed-back-1x.jpg 1x, ./images/feed-back-2x.jpg 2x" media="(min-width: 1200px)" />
+                <img src="./images/feed-back-1x.jpg" alt="ноутбук" width="720px" height="442px">
+            </picture>
+            <div class="feed-back__connect">
+                <svg class="feed-back__icon">
+                    <use href="./images/sprite.svg#icon-comment-alt-dots" width="40px" height="40px"></use>
+                </svg>
+                <p class="feed-back__tex">Все что в блоке выше - это приблизительные сроки и стоимость, все зависит от объема заказа.</p>
+                <p class="feed-back__tex feed-back__tex__connect">Свяжитесь со мной и мы обсудим Ваш проект.</p>
+                <button class="feed-back__button">Написать мне</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h2 class="stages__header">Этапы разработки работающего дизайна</h2>
+            <ul class="stages__list">
+                <li class="stages__item">
+                    <p class="stages__number">1</p>
+                    <div class="stages__box">
+                    <p class="stages__tex">Исследование</p>
+                    <p class="stages__tex__deskription">Изучение сайтов конкурентов для определения лучших практик и детальная проработка целевой аудитории</p>
+                </div>
+                </li>
+                <li class="stages__item">
+                    <p class="stages__number">2</p>
+                    <div class="stages__box">
+                        <p class="stages__tex">Прототипирование</p>
+                        <p class="stages__tex__deskription">Создание черно-белой первой версии сайта для согласования с заказчиком и внесения правок</p>
+                    </div>
+                </li>
+                    <li class="stages__item">
+                        <p class="stages__number">3</p>
+                        <div class="stages__box">
+                        <p class="stages__tex">Работа с копирайтером</p>
+                        <p class="stages__tex__deskription">Составление текстов для сайта с Вашим или моим копирайтером</p>
+                    </div>
+                </li>
+                    <li class="stages__item">
+                        <p class="stages__number">4</p>
+                        <div class="stages__box">
+                        <p class="stages__tex">Разработка дизайна</p>
+                        <p class="stages__tex__deskription">Реализация макетов для мобильной, планшетной и веб-версий сайта</p>
+                    </div>
+                </li>
+                    <li class="stages__item">
+                        <p class="stages__number">5</p>
+                        <div class="stages__box">
+                        <p class="stages__tex">Запуск</p>
+                        <p class="stages__tex__deskription">Сопровождение разработчиков Клиента при верстке сайта</p>
+                    </div>
+                </li>
+                    <li class="stages__item">
+                        <p class="stages__number">6</p>
+                        <div class="stages__box">
+                        <p class="stages__tex">Улучшение</p>
+                        <p class="stages__tex__deskription">Внесение изменений в дизайн для увеличения конверсий</p>
+                    </div>
+                </li>
+            </ul> 
+        </div>
+    </section>
+    <section class="works">
+        <div class="container">
+            <h3 class="works__header">Работы</h3>
+            <ul>
+                <li class="works__item">
+                    <picture>
+                        <source srcset="./images/it-fest-1x.jpg 1x, ./images/it-fest-2x.jpg 2x" media="(min-width: 1200px)" />
+                        <img src="./images/it-fest-1x.jpg" alt="сайт IT Fest" width="638" height="356">
+                    </picture>
+                    <div>
+                        <p class="works-projekt__name">IT FEST</p>
+                        <p class="works-projekt__type">Landing page (Одностраничник)</p>
+                        <p class="works-projekt__deskription">Сайт для проведения конференций для новичков по IT-тематике. Выполнен за 3 ночи.</p>
+                        <div class="works__box">
+                        <svg class="works__icon">
+                            <use href="./images/sprite.svg#icon-comment-plus" width="26px" height="26px"></use>
+                        </svg>
+                        <p class="works-projekt__type">Зарегистрированы <span class="works-proekt__span">6500</span> участников за неделю</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </section>
     </main>
     
 </body>

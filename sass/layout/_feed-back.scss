@@ -1,0 +1,46 @@
+.feed-back {
+  background-color: var(--accent-color);
+}
+
+.feed-back__box {
+  display: flex;
+  margin-bottom: 53px;
+}
+
+.feed-back__icon {
+  padding-top: 80px;
+  fill: #bab4fd;
+  height: 150px;
+}
+
+.feed-back__button {
+  min-width: 225px;
+  height: 56.11px;
+  background-color: transparent;
+  border-radius: 30.5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  border: 1px solid #ffffff;
+}
+
+.feed-back__tex {
+  width: 481px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-white-color);
+  margin-bottom: 42px;
+}
+
+.feed-back__tex__connect {
+  font-weight: 700;
+}
+
+.feed-back__connect {
+  margin-left: 119px;
+  margin-bottom: 48px;
+}

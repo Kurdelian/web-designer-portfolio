@@ -1,67 +1,64 @@
-.expert {
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-bottom: 70px;
-}
-
 .expert__list {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .expert__item {
-    width: calc((100% - 47px) / 2);
-    display: flex;
-    justify-content: flex-start;
-      margin-bottom: 72px;
-      &:nth-last-child(-n + 2) {
-        margin-bottom: 0px;
-      }
+  width: calc((100% - 45px) / 2);
+  display: flex;
+  margin-right: 30px;
+  &:nth-child(2n) {
+    margin-right: 0px;
+  }
+  margin-bottom: 72px;
+  &:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+  }
+}
+
+.expert__box {
+  width: 350px;
+  margin-left: -100px;
 }
 
 .expert__title {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--accent-color);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
-    margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  margin-bottom: 72px;
 }
 
 .expert__text_mein {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--accent-color);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
-    margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--accent-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  margin-bottom: 16px;
 }
 
 .expert__text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #1B1B1F;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
-    margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1b1b1f;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  margin-bottom: 24px;
 }
 
 .expert__table {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #1B1B1F;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
-    padding-right: 122px;
-}
-
-.expert__table_time {
-    padding-right: 55px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1b1b1f;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
 }
