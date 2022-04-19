@@ -19,13 +19,16 @@
     justify-content: space-between;
 }
 
+.header__link {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: var(--accent-color);
+}
+
 .header__item {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--accent-color);
     margin-right: 90px;
     &:last-child {
         margin-right: 0px;
@@ -100,7 +103,7 @@
 
 .header__images {
     position: absolute;
-    top: 0%;
+    top: 2%;
     right: 5%;
 }
 

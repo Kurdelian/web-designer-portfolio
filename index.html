@@ -16,17 +16,17 @@
         <div class="container header__container">
             <div class="header__box">
         <ul class="header__list">
-            <li class="header__item">Экспертиза</li>
-            <li class="header__item">Этапы работы</li>
-            <li class="header__item">Кейсы</li>
+            <li class="header__item"><a href="#expert" class="header__link">Экспертиза</a></li>
+            <li class="header__item"><a href="#stages" class="header__link">Этапы работы</a></li>
+            <li class="header__item"><a href="#works" class="header__link">Кейсы</a></li>
         </ul>
         <ul class="header__list_social">
-            <li class="header__list_social__item"><a>
+            <li class="header__list_social__item"><a href="">
                 <svg width="24" height="24">
                     <use href="./images/sprite.svg#icon-fb"></use>
                 </svg>
             </a></li>
-            <li class="header__list_social__item"><a>
+            <li class="header__list_social__item"><a href="">
                 <svg width="24" height="24">
                     <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
@@ -50,7 +50,7 @@
     <main>
         <section class="section">
             <div class="container">
-                <h2 class="expert__title">Экспертиза</h2>
+                <h2 class="expert__title" id="expert">Экспертиза</h2>
                 <ul class="expert__list">
                     <li class="expert__item">
                         <svg class="expert__icon">
@@ -153,14 +153,14 @@
                 </svg>
                 <p class="feed-back__tex">Все что в блоке выше - это приблизительные сроки и стоимость, все зависит от объема заказа.</p>
                 <p class="feed-back__tex feed-back__tex__connect">Свяжитесь со мной и мы обсудим Ваш проект.</p>
-                <button class="feed-back__button">Написать мне</button>
+                <button type="button" class="feed-back__button">Написать мне</button>
             </div>
         </div>
         </div>
     </section>
     <section class="section">
         <div class="container">
-            <h2 class="stages__header">Этапы разработки работающего дизайна</h2>
+            <h2 class="stages__header" id="stages">Этапы разработки работающего дизайна</h2>
             <ul class="stages__list">
                 <li class="stages__item">
                     <p class="stages__number">1</p>
@@ -209,13 +209,23 @@
     </section>
     <section class="works">
         <div class="container">
-            <h3 class="works__header">Работы</h3>
+            <h3 class="works__header" id="works">Работы</h3>
             <ul>
                 <li class="works__item">
+                    <div class="works__item_part">
                     <picture>
                         <source srcset="./images/it-fest-1x.jpg 1x, ./images/it-fest-2x.jpg 2x" media="(min-width: 1200px)" />
-                        <img src="./images/it-fest-1x.jpg" alt="сайт IT Fest" width="638" height="356">
+                        <img src="./images/it-fest-1x.jpg" alt="сайт IT Fest" width="638" height="357" class="works__image">
                     </picture>
+                    <div class="works__box_backgraund">
+                        <div class="works__box works__link_disposition">
+                        <svg class="works__icon">
+                            <use href="./images/sprite.svg#icon-link-icon" width="24px" height="24px"></use>
+                        </svg>
+                        <a href="https://goit.ua/itfest/" class="works__link">https://goit.ua/itfest/</a>
+                        </div>
+                    </div>
+                    </div>
                     <div>
                         <p class="works-projekt__name">IT FEST</p>
                         <p class="works-projekt__type">Landing page (Одностраничник)</p>
@@ -228,12 +238,123 @@
                         </div>
                     </div>
                 </li>
+                                <li class="works__item">
+                                    <div class="works__item_part">
+                                    <picture>
+                                        <source srcset="./images/powerkh-1x.jpg 1x, ./images/powerkh-2x.jpg 2x" media="(min-width: 1200px)" />
+                                        <img src="./images/powerkh-1x.jpg" alt="сайт Powerkh" width="638" height="357" class="works__image">
+                                    </picture>
+                                                        <div class="works__box_backgraund">
+                                                            <div class="works__box works__link_disposition">
+                                                                <svg class="works__icon">
+                                                                    <use href="./images/sprite.svg#icon-link-icon" width="24px" height="24px"></use>
+                                                                </svg>
+                                                                <a href="https://www.powerkh.com" class="works__link">https://www.powerkh.com</a>
+                                                            </div>
+                                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="works-projekt__name">Powerkh</p>
+                                        <p class="works-projekt__type">Корпоративный сайт</p>
+                                        <p class="works-projekt__deskription">Редизайн главного сайта строительной компании. Выполнен за неделю.</p>
+                                        <div class="works__box">
+                                            <svg class="works__icon">
+                                                <use href="./images/sprite.svg#icon-comment-plus" width="26px" height="26px"></use>
+                                            </svg>
+                                            <p class="works-projekt__type"><span class="works-proekt__span">В первый месяц </span>после редизайна компания через сайт привлекла большого B2B-клиента</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                                <li class="works__item">
+                                                    <div class="works__item_part">
+                                                    <picture>
+                                                        <source srcset="./images/e-sports-1x.jpg 1x, ./images/e-sports-2x.jpg 2x" media="(min-width: 1200px)" />
+                                                        <img src="./images/e-sports-1x.jpg" alt="сайт IT Fest" width="638" height="357" class="works__image">
+                                                    </picture>
+                                                                        <div class="works__box_backgraund">
+                                                                            <div class="works__box works__link_disposition">
+                                                                                <svg class="works__icon">
+                                                                                    <use href="./images/sprite.svg#icon-link-icon" width="24px" height="24px"></use>
+                                                                                </svg>
+                                                                                <a href="https://ess.gg/" class="works__link">https://ess.gg/</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                    <div>
+                                                        <p class="works-projekt__name">E-Sports</p>
+                                                        <p class="works-projekt__type">Web-приложение</p>
+                                                        <p class="works-projekt__deskription">Приложение для фанов киберспорта, которое помогает визуализировать статистику матчей и составлять персональное расписание игр любимых команд.</p>
+                                                        <div class="works__box">
+                                                            <svg class="works__icon">
+                                                                <use href="./images/sprite.svg#icon-comment-plus" width="26px" height="26px"></use>
+                                                            </svg>
+                                                            <p class="works-projekt__type">Благодаря разработанной дизайн-системе время на разработку и внесение правок для разработчиков сократилось<span class="works-proekt__span"> в два раза</span></p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                <li class="works__item">
+                                                                    <div class="works__item_part">
+                                                                    <picture>
+                                                                        <source srcset="./images/kidhab-1x.jpg 1x, ./images/kidhab-2x.jpg 2x" media="(min-width: 1200px)" />
+                                                                        <img src="./images/kidhab-1x.jpg" alt="сайт IT Fest" width="638" height="357" class="works__image">
+                                                                    </picture>
+                                                                                        <div class="works__box_backgraund">
+                                                                                            <div class="works__box works__link_disposition">
+                                                                                                <svg class="works__icon">
+                                                                                                    <use href="./images/sprite.svg#icon-link-icon" width="24px" height="24px"></use>
+                                                                                                </svg>
+                                                                                                <a href="https://play.google.com/store/apps/details?id=com.kidhab" class="works__link">https://play.google.com/store/apps/details?id=com.kidhab</a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        <p class="works-projekt__name">KidHab</p>
+                                                                        <p class="works-projekt__type">Мобильное приложение</p>
+                                                                        <p class="works-projekt__deskription">Мобильное приложение для формирования полезных привычек у детей в геймифицированной форме.</p>
+                                                                        <div class="works__box">
+                                                                            <svg class="works__icon">
+                                                                                <use href="./images/sprite.svg#icon-comment-plus" width="26px" height="26px"></use>
+                                                                            </svg>
+                                                                            <p class="works-projekt__type">После редизайна конверсия возросла<span class="works-proekt__span"> на 15%</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
             </ul>
-
         </div>
     </section>
     </main>
-    
+    <footer>
+        <div class="container footer">
+        <svg class="footer__icon">
+            <use href="./images/sprite.svg#icon-comment-alt-dots" width="40px" height="40px"></use>
+        </svg>
+        <p class="footer__tex">Свяжитесь со мной и мы обсудим Ваш проект.</p>
+        <button type="button" class="feed-back__button footer__button">Написать мне</button>
+        </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal__button" data-modal-close>
+                <svg width="40" height="40">
+                    <use href="./images/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+            <form class="form">
+                <div class="form__box">
+        <svg class="modal__icon">
+            <use href="./images/sprite.svg#icon-modal-icon" width="40px" height="40px"></use>
+        </svg>
+        <p class="form__title">Свяжитесь со мной <br> и мы обсудим Ваш проект.</p>
+    </div>
+    <label for="email" class="form__label">Email</label>
+    <input type="email" name="email" id="email" class="form__input">
+    <label for="comment" class="form__label">Текст</label>
+    <textarea name="comment" id="comment" class="form__input form__texarea"></textarea>
+    <button type="submit" class="button form__button">Отправить</button>
+</form>
+</div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
 
